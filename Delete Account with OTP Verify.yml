@@ -1,0 +1,15 @@
+info:
+  name: Delete Account with OTP Verify
+  type: http
+  seq: 9
+
+http:
+  method: DELETE
+  url: https://a1-blom-education-backend.onrender.com/api/v1/student/delete-account/confirm
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
