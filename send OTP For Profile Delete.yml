@@ -4,8 +4,11 @@ info:
   seq: 8
 
 http:
-  method: GET
+  method: POST
   url: https://a1-blom-education-backend.onrender.com/api/v1/student/delete-account/request-otp
+  headers:
+    - name: Authorization
+      value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhNDNiZjZhMDU0NmY4OWM4OTVjZTJlNiIsImlhdCI6MTc4MjgyNTc4OCwiZXhwIjoxNzgyODI2Njg4fQ
   auth: inherit
 
 settings:
