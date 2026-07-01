@@ -6,6 +6,17 @@ info:
 http:
   method: POST
   url: https://a1-blom-education-backend.onrender.com/api/v1/student/register
+  body:
+    type: json
+    data: |-
+      {
+        "fullName": "Manoj Kumar Das",
+        "mobile": "6371287364",
+        "password": "Manoj@123",
+        "gender": "Male",
+        "selectedBatch": "68723ab6f9f26d2c15b6eab2",
+        "acceptedTerms": true
+      }
   auth: inherit
 
 settings:
