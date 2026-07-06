@@ -5,13 +5,13 @@ info:
 
 http:
   method: POST
-  url: https://a1-blom-education-backend.onrender.com/api/v1/student/verify-mobile-otp
+  url: http://localhost:8080/api/v1/student/verify-mobile-otp
   body:
     type: json
     data: |-
       {
-        "mobile": "6371287364",
-        "otp": "297317"
+        "mobile": "7735429894",
+        "otp": "964493"
       }
   auth: inherit
 
