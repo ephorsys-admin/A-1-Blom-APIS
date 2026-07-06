@@ -5,10 +5,17 @@ info:
 
 http:
   method: GET
+<<<<<<< HEAD
   url: http://localhost:8080/api/v1/student/profile
   headers:
     - name: Authorization
       value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhNGI1YjY3OTZlNDE5ZGFkOTUzMzA4YyIsInR2IjowLCJpYXQiOjE3ODMzNDE3MDMsImV4cCI6MTc4MzM0MjYwM30.EFge7XrSuxFUk_FRY2_GopPZrQRpPCI3GbNvTekuMGQ
+=======
+  url: https://a1-blom-education-backend.onrender.com/api/v1/student/profile
+  headers:
+    - name: Authorization
+      value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhNGI0MzhmOTdhNzUyM2ZhYTllOGI5OSIsImlhdCI6MTc4MzMxODE4OSwiZXhwIjoxNzgzMzE5MDg5fQ.njMqdzofVY0tK84sihFpGSSlVa8SqjZWn8_FBdz_NDU
+>>>>>>> 0e6a9779b88620da2365ee6d7873356bfa307015
   auth: inherit
 
 settings:

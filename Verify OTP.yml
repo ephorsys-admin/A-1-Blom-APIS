@@ -10,8 +10,13 @@ http:
     type: json
     data: |-
       {
+<<<<<<< HEAD
         "mobile": "7735429894",
         "otp": "964493"
+=======
+        "mobile": "7064515926",
+        "otp": "933584"
+>>>>>>> 0e6a9779b88620da2365ee6d7873356bfa307015
       }
   auth: inherit
 

@@ -5,13 +5,22 @@ info:
 
 http:
   method: POST
+<<<<<<< HEAD
   url: http://localhost:8080/api/v1/student/login
+=======
+  url: https://a1-blom-education-backend.onrender.com/api/v1/student/login
+>>>>>>> 0e6a9779b88620da2365ee6d7873356bfa307015
   body:
     type: json
     data: |-
       {
+<<<<<<< HEAD
           "mobile": "7735429894",
           "password": "samir@123"
+=======
+          "mobile": "7064515926",
+          "password": "Biswo@123"
+>>>>>>> 0e6a9779b88620da2365ee6d7873356bfa307015
       }
   auth: inherit
 

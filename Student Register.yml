@@ -10,11 +10,19 @@ http:
     type: json
     data: |-
       {
+<<<<<<< HEAD
         "fullName": "Samir kumar swain",
         "mobile": "7735429894",
         "email": "samir.ephorsys@gmail.com",
         "classNumber" : 8,
         "password": "samir@123",
+=======
+        "fullName": "Bisworanjan Rout",
+        "mobile": "7064515926",
+        "email":"bisworanjan.ephorsys@gmail.com",
+        "classNumber":9,
+        "password": "Biswo@123",
+>>>>>>> 0e6a9779b88620da2365ee6d7873356bfa307015
         "gender": "Male",
         "acceptedTerms": true
       }
