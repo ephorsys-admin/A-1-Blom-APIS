@@ -1,0 +1,18 @@
+info:
+  name: Student Profile
+  type: http
+  seq: 5
+
+http:
+  method: GET
+  url: https://a1-blom-education-backend.onrender.com/api/v1/student/profile
+  headers:
+    - name: Authorization
+      value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhNGI0MzhmOTdhNzUyM2ZhYTllOGI5OSIsImlhdCI6MTc4MzMxODE4OSwiZXhwIjoxNzgzMzE5MDg5fQ.njMqdzofVY0tK84sihFpGSSlVa8SqjZWn8_FBdz_NDU
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

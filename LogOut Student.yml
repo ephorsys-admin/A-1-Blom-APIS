@@ -1,0 +1,18 @@
+info:
+  name: LogOut Student
+  type: http
+  seq: 7
+
+http:
+  method: POST
+  url: https://a1-blom-education-backend.onrender.com/api/v1/student/logout
+  headers:
+    - name: Authorization
+      value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhNDRlY2VmZGU4MjUxM2QwOGNiY2M2YyIsImlhdCI6MTc4MjkwNDc4MSwiZXhwIjoxNzgyOTA1NjgxfQ.Hs8VVK8LOtGhtgNdFjxhBi6AOLs85pW16xlNj05mLMg
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
