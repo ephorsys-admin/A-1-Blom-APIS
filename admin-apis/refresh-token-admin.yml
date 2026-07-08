@@ -1,0 +1,22 @@
+info:
+  name: refresh-token-admin
+  type: http
+  seq: 7
+
+http:
+  method: POST
+  url: http://localhost:8080/api/v1/admin/refresh-token
+  body:
+    type: json
+    data: "{\r
+
+      \ \"refreshToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhNDM2OGZhMWE2OGZhZjAyMTRkODcyNyIsImlhdCI6MTc4MzQyODk3MywiZXhwIjoxNzgzNTE1MzczfQ.YpuWx9QDt8M972yn_X5lXYLOb3ieic9epVKiYnIiKtI\"\r
+
+      }"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

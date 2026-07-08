@@ -8,7 +8,7 @@ http:
   url: https://a1-blom-education-backend.onrender.com/api/v1/student/profile
   headers:
     - name: Authorization
-      value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhNGI0MzhmOTdhNzUyM2ZhYTllOGI5OSIsImlhdCI6MTc4MzMxODE4OSwiZXhwIjoxNzgzMzE5MDg5fQ.njMqdzofVY0tK84sihFpGSSlVa8SqjZWn8_FBdz_NDU
+      value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhNGI5OTFkYTUyNjQ4YzIzYjYwY2U0YyIsInR2IjowLCJpYXQiOjE3ODMzNDA1OTAsImV4cCI6MTc4MzM0MTQ5MH0.Su912m-tKj2jjdL8xW64RSeV0uYLDn-r0kxVxIwxXds
   auth: inherit
 
 settings:

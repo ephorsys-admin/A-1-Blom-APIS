@@ -1,0 +1,18 @@
+info:
+  name: delete-manager
+  type: http
+  seq: 5
+
+http:
+  method: DELETE
+  url: http://localhost:8080/api/v1/admin/managers/6a44b4e91c3dbb40feca9b45
+  body:
+    type: text
+    data: ""
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

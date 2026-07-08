@@ -1,0 +1,24 @@
+info:
+  name: admin-mail-verify
+  type: http
+  seq: 9
+
+http:
+  method: POST
+  url: http://localhost:8080/api/v1/admin/verify-email
+  body:
+    type: json
+    data: "{\r
+
+      \    \"email\":\"bisworanjanr801@gmail.com\",\r
+
+      \    \"otp\":\"667629\"\r
+
+      }"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

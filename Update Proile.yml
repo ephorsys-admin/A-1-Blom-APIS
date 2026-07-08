@@ -5,19 +5,19 @@ info:
 
 http:
   method: PUT
-  url: https://a1-blom-education-backend.onrender.com/api/v1/student/profile
+  url: http://localhost:8080/api/v1/student/profile
   headers:
     - name: Authorization
-      value: Bearer eyJhbGciOiJNiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhNDRlY2VmZGU4MjUxM2QwOGNiY2M2YyIsImlhdCI6MTc4MjkwNDc4MSwiZXhwIjoxNzgyOTA1NjgxfQ.Hs8VVK8LOtGhtgNdFjxhBi6AOLs85pW16xlNj05mLMg
+      value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhNGI5OTFkYTUyNjQ4YzIzYjYwY2U0YyIsInR2IjowLCJpYXQiOjE3ODMzNDA1OTAsImV4cCI6MTc4MzM0MTQ5MH0.Su912m-tKj2jjdL8xW64RSeV0uYLDn-r0kxVxIwxXds
   body:
     type: json
     data: |-
       {
-          "fullName": "Manoj Kumar Updated",
-          "gender": "Female",
+          "fullName": "Bisworanjan",
+          "gender": "Male",
           "deviceToken": "fcm_token_here",
-          "deviceType": "android",
-          "selectedBatch":"68723ab6f9f26d2c15b6eab3"
+          "deviceType": "android",  
+          "classNumber":10
       }
   auth: inherit
 

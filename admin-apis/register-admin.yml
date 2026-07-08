@@ -1,0 +1,26 @@
+info:
+  name: register-admin
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: http://localhost:8080/api/v1/admin/register
+  body:
+    type: json
+    data: "{\r
+
+      \    \"name\":\"Bisworanjan Rout\",\r
+
+      \    \"email\":\"bisworanjanr801@gmail.com\",\r
+
+      \    \"password\":\"Biswo@123\"\r
+
+      }"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
